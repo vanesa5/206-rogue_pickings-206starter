@@ -50,8 +50,10 @@ header {
 	border-bottom: 3px solid #77a466;
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	align-items:center;
 	flex-flow:row wrap;
+	overflow-wrap: break-word;
+	text-align: center;
 
 }
 
@@ -81,9 +83,12 @@ header nav ul {
 header nav ul li {
 	list-style-type: none;
 	text-transform: uppercase;
+	
 	font-weight: 700;
 	font-size: .875em;
-	padding: 0 10px;
+	margin: 10px 0;
+	
+
 
 }
 header nav ul li a{
